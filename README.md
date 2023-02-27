@@ -1,53 +1,53 @@
-#### Trabalhando com Plates Engine
+#### Working with Plate Engine
 
-<p align="center">Implementando um sistema simple e nativo do PHP.</p>
+<p align="center">Implementing a simple and native PHP system.</p>
 
 
-#### Introdução
-O Plates engine serve para facilitar e organização dos templates do seu projeto, tornando o envio e exibição de 
-informações para estas páginas um processo mais simples e organizado na camada de visão. Alguns dos destaques que 
-podemos cita é a reutilização de códigos, blocos HTML e utilização das funções do PHP, entre outras destacadas 
+#### Intro
+The Plates engine serves to facilitate the organization of your project's templates, making sending and displaying
+information for these pages a simpler and more organized process in the view layer. Some of the highlights that
+we can mention is the reuse of codes, HTML blocks and use of PHP functions, among others highlighted
 no [`site do proprio Plates`](https://platesphp.com/).
 
 <br>
 
-##### Projeto
+##### Project
 
-Neste simples projeto demonstro como funciona implementação de um dos componente mais poderosos, o `Plates Engine`.
-###### É um projeto bem simples com total intuito de desmonstrar a utilização basica do componente.
+In this simple project I demonstrate how to implement one of the most powerful components, the `Plates Engine`.
+###### It's a very simple project with the total intention of demonstrating the basic use of the component.
 
-- Instalar o [`composer`](https://git-scm.com/)
-- PHP versão `7.4`
-- Plates Engine versão `v4.0.0-alpha`
+- Install o [`composer`](https://git-scm.com/)
+- PHP version `7.4`
+- Plates Engine version `v4.0.0-alpha`
 
 
 <br>
 
 
-#### Descrição do projeto simples
+#### Simple project description
 
-- No diretório templates, será onde fica a camada de views do projeto e neste diretório podemos trabalhar com blocos de páginas
-HTML e assim montando as páginas do projeto conforme forem as necessidades e reduzindo repetição dos códigos. 
-Nestas views, trabalhamos com a linguagem estrutural e comandos do proprio Plates.
+- In the templates directory, it will be where the project's views layer is located and in this directory we can work with page blocks
+  HTML and thus assembling the project's pages as needed and reducing code repetition.
+  In these views, we work with the structural language and commands of Plates itself.
 
 
-###### Utilização do objeto view `v`
-Com este objeto do Plates, podemos utilizar toda lógica de comando nativos que o componente disponibiliza.
+###### Using the `v` view object
+With this Plates object, we can use all native command logic that the component provides.
 
-- Chamanda o layout template
+- Calling the layout template
 ```
 <?= $v->section('content'); ?>
 ```
 
-- A página template chama o layout base pasando dados e com parametros recebidos do controller
+- The template page calls the base layout passing data and with parameters received from the controller
 ```
 <?php $this->layout('template', ['title' => 'User Profile']) ?>
 <p><?= "{$user->getName()}"; ?></p>
 ```
  
-- Criei uma classe Plates para abstrair a camada de controle da engine, assim podemos ao iniciar a view, já instanciar a
-engine no construtor e criar metodos para renderizar as view e já enviado todos dados necessários de cada página, 
-adicionar pastas e também trazer de volta a instancia da view engine.
+- I created a Plates class to abstract the engine control layer, so that when starting the view, we can instantiate the
+  engine in the constructor and create methods to render the views and already sent all the necessary data for each page,
+  add folders and also bring back the view engine instance.
 
 <br>
 
