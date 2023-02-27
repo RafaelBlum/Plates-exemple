@@ -1,0 +1,29 @@
+{
+  "name": "rafaelblum/desenvolvimento-php-com-plates-engine",
+  "description": "desenvolvimento php - Plate engine",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors" : [
+    {
+      "name": "Rafael Blum",
+      "email": "rafaelblum_digital@hotmail.com",
+      "homepage": "https://www.corporatix.com.br",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Support/Config.php"
+    ]
+  },
+  "require" : {
+      "league/plates": "v4.0.0-alpha",
+    "symfony/var-dumper": "5.4.x-dev"
+  }
+}

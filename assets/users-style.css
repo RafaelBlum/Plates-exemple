@@ -1,0 +1,30 @@
+.profile{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p{
+      text-align: center;
+      margin: 10px;
+      font-size: 12px;
+      font-weight: normal;
+  }
+
+a {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    background: rgb(83, 210, 124, 1);
+}
