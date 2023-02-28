@@ -4,19 +4,33 @@ body {
     background: rgba(129, 92, 231, 0.2);
 }
 
-/* Flex */
-.flex {
-    display: flex;
+.container-users{
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
+/* Flex */
+.flex {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #eeeeee;
+}
+
 .container {
-    max-width: 400px;
+    max-width: inherit;
     margin: 6px auto;
     border-radius: 3px;
     background-size: cover;
-    background: rgba(129, 92, 231, 0.72);
+    background: #1abc9c;
     align-items: center;
     justify-content: center;
 }
@@ -27,4 +41,17 @@ body {
     text-align: center;
     font-size: 16px;
     justify-content: center;
+}
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 40px;
 }

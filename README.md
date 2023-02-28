@@ -23,6 +23,12 @@ In this simple project I demonstrate how to implement one of the most powerful c
 
 <br>
 
+<section>
+      <figure class="gif">
+            <img src="/plates-engine.gif">
+      </figure>
+</section>
+
 
 #### Simple project description
 
