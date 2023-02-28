@@ -1,6 +1,6 @@
 .profile{
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     font-size: 30px;
     font-weight: normal;
 }
@@ -26,32 +26,37 @@ p{
     border-radius: 5px;
     font-size: 16px;
     font-weight: normal;
-    background: rgb(83, 210, 124, 1);
+    background: rgb(83, 210, 124, .6);
 }
 
 /* Style the list */
+.breadcrumb{
+    margin-top: 0;
+}
+
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 10px 10px;
     list-style: none;
-    background-color: #eee;
+    background-color: #F54768;
 }
 
 /* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
     font-size: 18px;
+    color: #FFFFFF;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
     padding: 8px;
-    color: black;
+    color: #c5cdd8;
     content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-    color: #0275d8;
+    color: #c5cdd8;
     text-decoration: none;
 }
 

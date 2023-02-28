@@ -27,10 +27,10 @@ body {
 
 .container {
     max-width: inherit;
-    margin: 6px auto;
+    margin: 2px auto;
     border-radius: 3px;
     background-size: cover;
-    background: #1abc9c;
+    background: #98DAD9;
     align-items: center;
     justify-content: center;
 }

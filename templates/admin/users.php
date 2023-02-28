@@ -17,7 +17,7 @@
 
 <div class="container-users">
     <?php foreach ($users as $k => $user): ?>
-        <section class="container flex">
+        <section class="container flex user-scroll">
             <div class="item">
                 <h1><?= "{$user->getName()}"; ?></h1>
                 <p><?= "Matricula de usuário id {$user->getId()}"; ?> - <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></p>
@@ -35,4 +35,5 @@
         x.classList.toggle("fa-thumbs-down");
     }
 </script>
+
 <?php $v->end() ?>

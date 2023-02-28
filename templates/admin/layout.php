@@ -11,7 +11,7 @@
 <body>
 
 <div class="header">
-    <h1>Plates Engine</h1>
+    <h1 class="header-title">Plates Engine</h1>
     <p>Working with Plate Engine - Implementing a simple and native PHP system</p>
 </div>
 
@@ -28,6 +28,8 @@
 
 <!---->
 <?=$v->section('scripts')?>
-
+<script type="text/javascript" rel="script" src="./assets/dist/js/jquery.min.js"></script>
+<script type="text/javascript" rel="script" src="./assets/dist/js/scrollreveal.min.js"></script>
+<script type="text/javascript" rel="script" src="./assets/dist/js/script.js"></script>
 </body>
 </html>

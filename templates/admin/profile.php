@@ -14,7 +14,7 @@
 <?php $v->stop(); ?>
 
 <section class="container flex-profile">
-    <div class="item">
+    <div class="item item-scroll">
         <h1><?= "{$user->getName()}"; ?></h1>
         <p><?= "Matricula id {$user->getId()}"; ?></p>
         <a class="link" href="./" title="back">voltar</a>

@@ -19,13 +19,15 @@ In this simple project I demonstrate how to implement one of the most powerful c
 - Install o [`composer`](https://git-scm.com/)
 - PHP version `7.4`
 - Plates Engine version `v4.0.0-alpha`
+- ScrollReveal `v4.0.9`
+- jQuery `v1.12.3`
 
 
 <br>
 
 <section>
       <figure class="gif">
-            <img src="/plates-engine.gif">
+            <img src="/gif-projetct.gif">
       </figure>
 </section>
 
